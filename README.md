@@ -31,13 +31,13 @@
 <img width="613" height="174" alt="Screenshot 2026-05-16 094551" src="https://github.com/user-attachments/assets/f3ab5ea4-7b93-48af-bfd7-0cec5d60575f" />
 
 
-📷 کلاینت به سرور وصل می‌شود و به صورت خودکار یک پیام Hello Server برای سرور ارسال می‌کند:
+📷 کلاینت به سرور وصل می‌شود و به صورت خودکار یک پیام Hello Server برای سرور ارسال می‌کند (پیام کلاینت در سمت سرور قابل مشاهده است، در عکس بعد):
 
 
 <img width="614" height="153" alt="Screenshot 2026-05-16 094823" src="https://github.com/user-attachments/assets/9bda8b01-264b-430c-a9e0-25cf75b84f50" />
 
 
-📷 سرور اتصال کلاینت را با نمایش IP آن اعلام کرده و به او جواب Hello Client می‌فرستد:
+📷 سرور اتصال کلاینت را با نمایش IP آن اعلام کرده و به او جواب Hello Client می‌فرستد (پیام سرور در سمت کلاینت قابل مشاهده است، در عکس قبل):
 
 
 <img width="624" height="194" alt="Screenshot 2026-05-16 094755" src="https://github.com/user-attachments/assets/8c1cc096-dba9-4d64-8636-e34cec461ca7" />
