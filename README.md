@@ -95,7 +95,7 @@
 - امکان ارسال پیام خصوصی با استفاده از @username
 - بهبود تجربه کاربری
 
-📷 تصویر:
+📷 کلاینت ها پس از اتصال، باید یوزرنیمی برای خود وارد کنند(برای نمایش در چت):
 
 <img width="694" height="146" alt="Screenshot 2026-05-16 112410" src="https://github.com/user-attachments/assets/f5115dfd-358f-4ee5-9173-8cdc8f32f3b9" />
 
@@ -103,11 +103,29 @@
 
 <img width="663" height="152" alt="Screenshot 2026-05-16 112432" src="https://github.com/user-attachments/assets/bfcc6d46-441a-4267-b280-d7a23190f9be" />
 
+
+📷 :پس از وارد کردن یوزرنیم، همچین صفحه ای برای کاربر باز می‌شود:
+
+
 <img width="762" height="799" alt="Screenshot 2026-05-16 031134" src="https://github.com/user-attachments/assets/c20ef056-3de5-4e21-a56a-a30f8b1a791c" />
+
+
+📷 کلاینت ها هرکدام در صفحه اختصاصی خود به چت با دیگر کاربران می‌پردازند
+(کلاینت ها می‌توانند با @username قبل از پیام، آن پیام را به صورت خصوصی برای آن کلاینت بفرستند، و پیام فقط برای آن دو نمایش داده می‌شود)
+(هر کلاینت می‌تواند با دستور /users کاربران متصل را مشاهده نماید. و فقط برای خود او نمایش داده می‌شود) :
+
 
 <img width="1905" height="803" alt="Screenshot 2026-05-16 030831" src="https://github.com/user-attachments/assets/0883e095-81e5-461a-8d03-f242a6edad8d" />
 
+
+📷 هر کلاینت می‌تواند با دستور /exit از چت خارج شود، و خروج او برای دیگر کاربران نمایش داده می‌شود. چت پایدار می‌ماند:
+
+
 <img width="1277" height="808" alt="Screenshot 2026-05-16 030857" src="https://github.com/user-attachments/assets/f3f1ca31-828f-4b07-b98f-76963f10a073" />
+
+
+📷 در سمت سرور، تمام اتصال ها و قطع اتصال های کلاینت ها، همراه با IP و پورت آنها نمایش داده می‌شود:
+
 
 <img width="678" height="229" alt="Screenshot 2026-05-16 112711" src="https://github.com/user-attachments/assets/4e3deded-34d4-4423-8aa1-ba041c3c0bb2" />
 
