@@ -5,8 +5,8 @@
 ---
 
 ## 👨‍💻 توضیحات پروژه
-این پروژه یک سیستم چت چند مرحله‌ای با استفاده از برنامه‌نویسی سوکت در پایتون است.  
-در این پروژه، یک سیستم ساده ارتباط کلاینت و سرور به مرور توسعه داده شده و در نهایت به یک سیستم چت با رابط گرافیکی تبدیل شده است.
+یک سیستم چت چند مرحله‌ای با استفاده از برنامه‌نویسی سوکت در پایتون. 
+در این پروژه، یک سیستم ساده ارتباط کلاینت و سرور در 4 فاز به مرور توسعه داده شده و در نهایت به یک سیستم چت با رابط گرافیکی تبدیل شده است.
 
 ---
 
@@ -25,12 +25,24 @@
 - ارسال پیام از کلاینت به سرور
 - پاسخ ساده از سمت سرور
 
-📷 تصویر:
+📷 سرور run می‌شود و منتظر کلاینت می‌ماند:
 
 
 <img width="613" height="174" alt="Screenshot 2026-05-16 094551" src="https://github.com/user-attachments/assets/f3ab5ea4-7b93-48af-bfd7-0cec5d60575f" />
 
+
+📷 کلاینت به سرور وصل می‌شود و به صورت خودکار یک پیام Hello Server برای سرور ارسال می‌کند:
+
+
+<img width="614" height="153" alt="Screenshot 2026-05-16 094823" src="https://github.com/user-attachments/assets/9bda8b01-264b-430c-a9e0-25cf75b84f50" />
+
+
+📷 سرور اتصال کلاینت را با نمایش IP آن اعلام کرده و به او جواب Hello Client می‌فرستد:
+
+
 <img width="624" height="194" alt="Screenshot 2026-05-16 094755" src="https://github.com/user-attachments/assets/8c1cc096-dba9-4d64-8636-e34cec461ca7" />
+
+
 
 
 ---
@@ -92,6 +104,9 @@
 <img width="1905" height="803" alt="Screenshot 2026-05-16 030831" src="https://github.com/user-attachments/assets/0883e095-81e5-461a-8d03-f242a6edad8d" />
 
 <img width="1277" height="808" alt="Screenshot 2026-05-16 030857" src="https://github.com/user-attachments/assets/f3f1ca31-828f-4b07-b98f-76963f10a073" />
+
+<img width="678" height="229" alt="Screenshot 2026-05-16 112711" src="https://github.com/user-attachments/assets/4e3deded-34d4-4423-8aa1-ba041c3c0bb2" />
+
 
 
 
