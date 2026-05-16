@@ -4,36 +4,48 @@ import threading
 server = socket.socket()
 server.bind(("127.0.0.1", 12345))
 server.listen()
-
 print("Server is running...")
+
+clients = []
+
+def broadcast(message, sender_socket):
+    for client in clients:
+        if client != sender_socket:
+            try:
+                client.send(message)
+            except:
+                pass
 
 
 def handle_client(client_socket, client_address):
 
     print(f"{client_address} Connected")
+    clients.append(client_socket)
 
     try:
         while True:
 
-            message = client_socket.recv(1024).decode()
+            message = client_socket.recv(1024)
 
             if not message:
                 break
 
-            if message == "/exit":
+            text = message.decode()
+
+            if text == "/exit":
                 break
 
-            print(f"{client_address}: {message}")
+            msg = f"{client_address}: {text}".encode()
+            print(msg.decode())
 
-            response = f"I received your message, client {client_address[0]}:{client_address[1]}"
-            client_socket.send(response.encode())
+            broadcast(msg, client_socket)
 
-    except Exception as e:
-        print(f"[ERROR] {client_address}: {e}")
+    except:
+        pass
 
-    finally:
-        client_socket.close()
-        print(f"{client_address} Disconnected")
+    clients.remove(client_socket)
+    client_socket.close()
+    print(f"{client_address} Disconnected")
 
 
 while True:
